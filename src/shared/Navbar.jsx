@@ -16,7 +16,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <header>
+    <header className="bg-white lg:py-2 py-0">
       <div className="container">
         <div className="drawer">
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
