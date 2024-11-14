@@ -4,7 +4,6 @@ import Footer from "../shared/Footer";
 
 const App = () => {
   const location = useLocation();
-  console.log(location.pathname);
   return (
     <>
       {location.pathname !== "/" && <Navbar />}
