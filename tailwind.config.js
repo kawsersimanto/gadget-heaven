@@ -6,11 +6,11 @@ export default {
   theme: {
     extend: {
       container: {
-        center: true,
-        padding: "20px",
-      },
-      screens: {
         DEFAULT: "1280px",
+        center: true,
+        screens: {
+          DEFAULT: "1280px",
+        },
       },
       colors: {
         primary: "#9538E2",
