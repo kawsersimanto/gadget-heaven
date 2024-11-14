@@ -14,6 +14,7 @@ export default {
       },
       colors: {
         primary: "#9538E2",
+        "light-gray-200": "rgba(9,8,15,0.60)",
       },
     },
   },
