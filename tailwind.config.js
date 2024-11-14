@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       container: {
-        DEFAULT: "1280px",
+        padding: "20px",
         center: true,
         screens: {
           DEFAULT: "1280px",
