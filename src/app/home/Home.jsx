@@ -3,7 +3,7 @@ import HomeNavbar from "../../shared/HomeNavbar";
 const Home = () => {
   return (
     <main className="pt-[30px] px-5">
-      <div className="bg-primary rounded-[32px] pb-[268px] max-w-[1540px] mx-auto px-5">
+      <div className="bg-primary rounded-[32px] sm:pb-[268px] pb-[120px] max-w-[1540px] mx-auto px-5">
         <div className="container">
           <HomeNavbar />
           <div className="flex flex-col items-center">
@@ -18,6 +18,17 @@ const Home = () => {
             <button className="btn text-primary rounded-[32px] py-[15px] px-[30px] text-[18px] h-auto">
               Shop Now
             </button>
+          </div>
+        </div>
+      </div>
+      <div className="sm:mt-[-220px] mt-[-90px] px-5">
+        <div className="max-w-[1110px] mx-auto">
+          <div className="flex items-center justify-center rounded-[32px] border border-white p-6 bg-[rgba(255,255,255,0.30)]">
+            <img
+              src="/banner.jpg"
+              alt="Apple vision Pro"
+              className="w-full h-full rounded-3xl"
+            />
           </div>
         </div>
       </div>
