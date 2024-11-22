@@ -2,7 +2,6 @@ const products = [
   {
     product_id: "L001",
     product_title: "MacBook Pro 14-inch",
-    // product_image: "/products/apple-macbook-air.jpg",
     category: "Laptops",
     price: 1999,
     description: "Powerful performance with M2 Pro chip.",
