@@ -1,27 +1,23 @@
 const categories = [
   {
     id: 1,
-    name: "Laptops",
+    name: "All Products",
   },
   {
     id: 2,
-    name: "Phones",
+    name: "Laptops",
   },
   {
     id: 3,
-    name: "Smart Watches",
+    name: "Phones",
   },
   {
     id: 4,
-    name: "Laptops",
+    name: "Smart Watches",
   },
   {
     id: 5,
-    name: "Laptops",
-  },
-  {
-    id: 6,
-    name: "Laptops",
+    name: "VR Box",
   },
 ];
 

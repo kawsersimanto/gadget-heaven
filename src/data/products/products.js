@@ -2,7 +2,7 @@ const products = [
   {
     product_id: "L001",
     product_title: "MacBook Pro 14-inch",
-    product_image: "/products/apple-macbook-air.jpg",
+    // product_image: "/products/apple-macbook-air.jpg",
     category: "Laptops",
     price: 1999,
     description: "Powerful performance with M2 Pro chip.",
@@ -121,7 +121,7 @@ const products = [
   {
     product_id: "S002",
     product_title: "Samsung Galaxy Watch 6",
-    product_image: "/products/samsung-galaxy-watch.jpg",
+    // product_image: "/products/samsung-galaxy-watch.jpg",
     category: "Smart Watches",
     price: 329,
     description: "Advanced health monitoring and fitness features.",
