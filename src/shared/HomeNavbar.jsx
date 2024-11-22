@@ -90,7 +90,7 @@ const HomeNavbar = () => {
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
-          <ul className="menu bg-base-200 min-h-full w-80 p-4 gap-4">
+          <ul className="menu bg-white min-h-full w-80 p-4 gap-4">
             {menus.map((menu, index) => (
               <li key={index}>
                 <NavLink

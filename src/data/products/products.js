@@ -6,13 +6,13 @@ const products = [
     category: "Laptops",
     price: 1999,
     description: "Powerful performance with M2 Pro chip.",
-    specification: [
-      "14-inch Liquid Retina XDR display",
-      "M2 Pro chip",
-      "16GB RAM",
-      "512GB SSD",
-      "Battery life up to 17 hours",
-    ],
+    specification: `<ul>
+      <li>14-inch Liquid Retina XDR display</li>
+      <li>M2 Pro chip</li>
+      <li>16GB RAM</li>
+      <li>512GB SSD</li>
+      <li>Battery life up to 17 hours</li>
+    </ul>`,
     availability: true,
     rating: 4.7,
   },
@@ -23,13 +23,13 @@ const products = [
     category: "Laptops",
     price: 1199,
     description: "Lightweight and powerful laptop for everyday use.",
-    specification: [
-      "13.4-inch FHD+ display",
-      "Intel Core i7",
-      "16GB RAM",
-      "512GB SSD",
-      "Battery life up to 12 hours",
-    ],
+    specification: `<ul>
+      <li>14-inch Liquid Retina XDR display</li>
+      <li>M2 Pro chip</li>
+      <li>16GB RAM</li>
+      <li>512GB SSD</li>
+      <li>Battery life up to 17 hours</li>
+    </ul>`,
     availability: true,
     rating: 4.5,
   },
@@ -40,13 +40,13 @@ const products = [
     category: "Laptops",
     price: 1499,
     description: "Versatile 2-in-1 laptop with powerful features.",
-    specification: [
-      "13.5-inch OLED display",
-      "Intel Evo Core i7",
-      "16GB RAM",
-      "1TB SSD",
-      "Battery life up to 15 hours",
-    ],
+    specification: `<ul>
+      <li>14-inch Liquid Retina XDR display</li>
+      <li>M2 Pro chip</li>
+      <li>16GB RAM</li>
+      <li>512GB SSD</li>
+      <li>Battery life up to 17 hours</li>
+    </ul>`,
     availability: true,
     rating: 4.6,
   },
@@ -57,13 +57,13 @@ const products = [
     category: "Phones",
     price: 1199,
     description: "Experience top-tier performance with Galaxy S23 Ultra.",
-    specification: [
-      "6.8-inch Dynamic AMOLED 2X display",
-      "Snapdragon 8 Gen 2",
-      "108MP camera",
-      "5000mAh battery",
-      "Up to 1TB storage",
-    ],
+    specification: `<ul>
+      <li>14-inch Liquid Retina XDR display</li>
+      <li>M2 Pro chip</li>
+      <li>16GB RAM</li>
+      <li>512GB SSD</li>
+      <li>Battery life up to 17 hours</li>
+    </ul>`,
     availability: true,
     rating: 4.9,
   },
@@ -74,13 +74,13 @@ const products = [
     category: "Phones",
     price: 999,
     description: "Advanced AI capabilities with Google Tensor G3 chip.",
-    specification: [
-      "6.7-inch OLED display",
-      "Google Tensor G3",
-      "50MP wide camera",
-      "4905mAh battery",
-      "128GB to 1TB storage",
-    ],
+    specification: `<ul>
+      <li>14-inch Liquid Retina XDR display</li>
+      <li>M2 Pro chip</li>
+      <li>16GB RAM</li>
+      <li>512GB SSD</li>
+      <li>Battery life up to 17 hours</li>
+    </ul>`,
     availability: true,
     rating: 4.7,
   },
@@ -91,13 +91,13 @@ const products = [
     category: "Phones",
     price: 899,
     description: "Flagship performance with ultra-smooth display.",
-    specification: [
-      "6.7-inch Fluid AMOLED display",
-      "Snapdragon 8 Gen 2",
-      "48MP camera",
-      "5000mAh battery",
-      "256GB storage",
-    ],
+    specification: `<ul>
+      <li>14-inch Liquid Retina XDR display</li>
+      <li>M2 Pro chip</li>
+      <li>16GB RAM</li>
+      <li>512GB SSD</li>
+      <li>Battery life up to 17 hours</li>
+    </ul>`,
     availability: true,
     rating: 4.6,
   },
@@ -108,13 +108,13 @@ const products = [
     category: "Smart Watches",
     price: 399,
     description: "Ultimate health and fitness companion.",
-    specification: [
-      "1.9-inch Retina display",
-      "S9 chip",
-      "Blood oxygen sensor",
-      "Sleep tracking",
-      "Up to 18 hours of battery life",
-    ],
+    specification: `<ul>
+      <li>14-inch Liquid Retina XDR display</li>
+      <li>M2 Pro chip</li>
+      <li>16GB RAM</li>
+      <li>512GB SSD</li>
+      <li>Battery life up to 17 hours</li>
+    </ul>`,
     availability: true,
     rating: 4.8,
   },
@@ -125,13 +125,13 @@ const products = [
     category: "Smart Watches",
     price: 329,
     description: "Advanced health monitoring and fitness features.",
-    specification: [
-      "1.5-inch Super AMOLED display",
-      "Exynos W930",
-      "Heart rate monitor",
-      "Sleep tracking",
-      "Up to 40 hours of battery life",
-    ],
+    specification: `<ul>
+      <li>14-inch Liquid Retina XDR display</li>
+      <li>M2 Pro chip</li>
+      <li>16GB RAM</li>
+      <li>512GB SSD</li>
+      <li>Battery life up to 17 hours</li>
+    </ul>`,
     availability: true,
     rating: 4.5,
   },
@@ -142,13 +142,13 @@ const products = [
     category: "Smart Watches",
     price: 299,
     description: "Comprehensive health and wellness tracking.",
-    specification: [
-      "1.58-inch AMOLED display",
-      "EDA sensor",
-      "Heart rate monitor",
-      "GPS",
-      "Up to 6 days of battery life",
-    ],
+    specification: `<ul>
+      <li>14-inch Liquid Retina XDR display</li>
+      <li>M2 Pro chip</li>
+      <li>16GB RAM</li>
+      <li>512GB SSD</li>
+      <li>Battery life up to 17 hours</li>
+    </ul>`,
     availability: true,
     rating: 4.4,
   },
@@ -159,13 +159,13 @@ const products = [
     category: "Smart Watches",
     price: 349,
     description: "High-quality GPS smartwatch with health monitoring.",
-    specification: [
-      "1.3-inch AMOLED display",
-      "Pulse Ox sensor",
-      "GPS",
-      "Heart rate monitoring",
-      "Battery life up to 11 days",
-    ],
+    specification: `<ul>
+      <li>14-inch Liquid Retina XDR display</li>
+      <li>M2 Pro chip</li>
+      <li>16GB RAM</li>
+      <li>512GB SSD</li>
+      <li>Battery life up to 17 hours</li>
+    </ul>`,
     availability: true,
     rating: 4.6,
   },

@@ -14,9 +14,19 @@ export default {
       },
       colors: {
         primary: "#9538E2",
+        "white-gray-100": "#f3f3f3",
         "light-gray-200": "rgba(9,8,15,0.60)",
       },
     },
+  },
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: "#9538E2",
+        },
+      },
+    ],
   },
   plugins: [daisyui],
 };
