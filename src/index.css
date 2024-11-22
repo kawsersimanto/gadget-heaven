@@ -15,3 +15,7 @@ body {
 .specification li {
   color: rgba(9, 8, 15, 0.6);
 }
+
+.heart.active img {
+  filter: invert(1);
+}

@@ -4,12 +4,39 @@ import "@smastrom/react-rating/style.css";
 import CartIcon from "../../components/ui/icons/CartIcon";
 import { useContext } from "react";
 import { StoreContext } from "../../contexts/StoreContext";
+import { toast } from "sonner";
+import { cn } from "../../utils/cn";
 
 const ProductDetails = () => {
   const { cart, setCart, wishlist, setWishlist } = useContext(StoreContext);
   const { id } = useParams();
   const data = useLoaderData();
   const product = data.find((item) => item.product_id === id);
+
+  const isProductInCart = cart.some((item) => item.product_id === id);
+  const isProductInWishlist = wishlist.some((item) => item.product_id === id);
+
+  const handleAddToCart = (product) => {
+    if (isProductInCart) {
+      toast.error(`${product?.product_title} is already in the cart`);
+    } else {
+      toast.success(`${product?.product_title} has been added to cart`);
+      setCart([...cart, product]);
+    }
+  };
+
+  const handleAddToWishlist = (product) => {
+    if (isProductInWishlist) {
+      const updatedWishlist = wishlist.filter(
+        (item) => item.product_id !== product.product_id
+      );
+      setWishlist(updatedWishlist);
+      toast.info(`${product?.product_title} has been removed from wishlist`);
+    } else {
+      setWishlist([...wishlist, product]);
+      toast.success(`${product?.product_title} has been added to wishlist`);
+    }
+  };
 
   return (
     <section>
@@ -77,17 +104,21 @@ const ProductDetails = () => {
                 </div>
                 <div className="flex lg:gap-4 gap-2">
                   <button
-                    disabled={!product?.in_stock}
-                    className="btn btn-primary text-white !h-auto !min-h-[auto] rounded-[32px] xl:py-3 py-1 xl:px-[22px] disabled:bg-primary disabled:opacity-85 disabled:text-white lg:text-inherit text-[12px]"
-                    onClick={() => setCart([...cart, product])}
+                    disabled={!product?.in_stock || isProductInCart}
+                    className="btn btn-primary !text-white !h-auto !min-h-[auto] rounded-[32px] xl:py-3 py-1 xl:px-[22px] disabled:bg-primary disabled:opacity-85 disabled:text-white lg:text-inherit text-[12px]"
+                    onClick={() => handleAddToCart(product)}
                   >
-                    Add to Cart
+                    {isProductInCart ? "Already in Cart" : "Add to Cart"}
                     <CartIcon />
                   </button>
                   <button
                     disabled={!product?.in_stock}
-                    className="lg:w-[50px] w-[40px] lg:h-[50px] h-[40px] rounded-full border border-[rgba(11,11,11,0.10)] flex items-center justify-center"
-                    onClick={() => setWishlist([...wishlist, product])}
+                    className={cn(
+                      `lg:w-[50px] w-[40px] lg:h-[50px] h-[40px] rounded-full border border-[rgba(11,11,11,0.10)] flex items-center justify-center ${
+                        isProductInWishlist ? "bg-primary active heart" : ""
+                      }`
+                    )}
+                    onClick={() => handleAddToWishlist(product)}
                   >
                     <img
                       src="/wishlist.svg"
