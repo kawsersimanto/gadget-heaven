@@ -7,7 +7,8 @@
     "description": "Powerful performance with M2 Pro chip.",
     "specification": "<ul>\n  <li>14-inch Liquid Retina XDR display</li>\n  <li>M2 Pro chip</li>\n  <li>16GB RAM</li>\n  <li>512GB SSD</li>\n  <li>Battery life up to 17 hours</li>\n</ul>",
     "availability": true,
-    "rating": 4.7
+    "rating": 4.7,
+    "in_stock": 20
   },
   {
     "product_id": "L002",
@@ -18,7 +19,8 @@
     "description": "Lightweight and powerful laptop for everyday use.",
     "specification": "<ul>\n  <li>14-inch Liquid Retina XDR display</li>\n  <li>M2 Pro chip</li>\n  <li>16GB RAM</li>\n  <li>512GB SSD</li>\n  <li>Battery life up to 17 hours</li>\n</ul>",
     "availability": true,
-    "rating": 4.5
+    "rating": 4.5,
+    "in_stock": 0
   },
   {
     "product_id": "L003",
@@ -29,7 +31,8 @@
     "description": "Versatile 2-in-1 laptop with powerful features.",
     "specification": "<ul>\n  <li>14-inch Liquid Retina XDR display</li>\n  <li>M2 Pro chip</li>\n  <li>16GB RAM</li>\n  <li>512GB SSD</li>\n  <li>Battery life up to 17 hours</li>\n</ul>",
     "availability": true,
-    "rating": 4.6
+    "rating": 4.6,
+    "in_stock": 20
   },
   {
     "product_id": "P002",
@@ -40,7 +43,8 @@
     "description": "Experience top-tier performance with Galaxy S23 Ultra.",
     "specification": "<ul>\n  <li>14-inch Liquid Retina XDR display</li>\n  <li>M2 Pro chip</li>\n  <li>16GB RAM</li>\n  <li>512GB SSD</li>\n  <li>Battery life up to 17 hours</li>\n</ul>",
     "availability": true,
-    "rating": 4.9
+    "rating": 4.9,
+    "in_stock": 20
   },
   {
     "product_id": "P003",
@@ -51,7 +55,8 @@
     "description": "Advanced AI capabilities with Google Tensor G3 chip.",
     "specification": "<ul>\n  <li>14-inch Liquid Retina XDR display</li>\n  <li>M2 Pro chip</li>\n  <li>16GB RAM</li>\n  <li>512GB SSD</li>\n  <li>Battery life up to 17 hours</li>\n</ul>",
     "availability": true,
-    "rating": 4.7
+    "rating": 4.7,
+    "in_stock": 20
   },
   {
     "product_id": "P004",
@@ -62,7 +67,8 @@
     "description": "Flagship performance with ultra-smooth display.",
     "specification": "<ul>\n  <li>14-inch Liquid Retina XDR display</li>\n  <li>M2 Pro chip</li>\n  <li>16GB RAM</li>\n  <li>512GB SSD</li>\n  <li>Battery life up to 17 hours</li>\n</ul>",
     "availability": true,
-    "rating": 4.6
+    "rating": 4.6,
+    "in_stock": 0
   },
   {
     "product_id": "S001",
@@ -73,7 +79,8 @@
     "description": "Ultimate health and fitness companion.",
     "specification": "<ul>\n  <li>14-inch Liquid Retina XDR display</li>\n  <li>M2 Pro chip</li>\n  <li>16GB RAM</li>\n  <li>512GB SSD</li>\n  <li>Battery life up to 17 hours</li>\n</ul>",
     "availability": true,
-    "rating": 4.8
+    "rating": 4.8,
+    "in_stock": 20
   },
   {
     "product_id": "S002",
@@ -83,7 +90,8 @@
     "description": "Advanced health monitoring and fitness features.",
     "specification": "<ul>\n  <li>14-inch Liquid Retina XDR display</li>\n  <li>M2 Pro chip</li>\n  <li>16GB RAM</li>\n  <li>512GB SSD</li>\n  <li>Battery life up to 17 hours</li>\n</ul>",
     "availability": true,
-    "rating": 4.5
+    "rating": 4.5,
+    "in_stock": 20
   },
   {
     "product_id": "S003",
@@ -94,7 +102,8 @@
     "description": "Comprehensive health and wellness tracking.",
     "specification": "<ul>\n  <li>14-inch Liquid Retina XDR display</li>\n  <li>M2 Pro chip</li>\n  <li>16GB RAM</li>\n  <li>512GB SSD</li>\n  <li>Battery life up to 17 hours</li>\n</ul>",
     "availability": true,
-    "rating": 4.4
+    "rating": 4.4,
+    "in_stock": 20
   },
   {
     "product_id": "S004",
@@ -105,6 +114,7 @@
     "description": "High-quality GPS smartwatch with health monitoring.",
     "specification": "<ul>\n  <li>14-inch Liquid Retina XDR display</li>\n  <li>M2 Pro chip</li>\n  <li>16GB RAM</li>\n  <li>512GB SSD</li>\n  <li>Battery life up to 17 hours</li>\n</ul>",
     "availability": true,
-    "rating": 4.6
+    "rating": 4.6,
+    "in_stock": 20
   }
 ]
