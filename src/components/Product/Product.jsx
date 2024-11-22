@@ -1,9 +1,10 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Product = ({ product }) => {
   return (
-    <a
-      href={`/product/${product?.product_id}`}
+    <Link
+      to={`/product/${product?.product_id}`}
       className="bg-white p-5 rounded-2xl group flex flex-col gap-6"
     >
       <div className="overflow-hidden sm:h-[180px] h-[100px] flex items-center justify-center">
@@ -22,7 +23,7 @@ const Product = ({ product }) => {
           View Details
         </button>
       </div>
-    </a>
+    </Link>
   );
 };
 

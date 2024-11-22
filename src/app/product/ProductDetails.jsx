@@ -2,12 +2,14 @@ import { Rating } from "@smastrom/react-rating";
 import { useLoaderData, useParams } from "react-router-dom";
 import "@smastrom/react-rating/style.css";
 import CartIcon from "../../components/ui/icons/CartIcon";
+import { useContext } from "react";
+import { StoreContext } from "../../contexts/StoreContext";
 
 const ProductDetails = () => {
+  const { cart, setCart, wishlist, setWishlist } = useContext(StoreContext);
   const { id } = useParams();
   const data = useLoaderData();
   const product = data.find((item) => item.product_id === id);
-  console.log(product);
 
   return (
     <section>
@@ -77,6 +79,7 @@ const ProductDetails = () => {
                   <button
                     disabled={!product?.in_stock}
                     className="btn btn-primary text-white !h-auto !min-h-[auto] rounded-[32px] xl:py-3 py-1 xl:px-[22px] disabled:bg-primary disabled:opacity-85 disabled:text-white lg:text-inherit text-[12px]"
+                    onClick={() => setCart([...cart, product])}
                   >
                     Add to Cart
                     <CartIcon />
@@ -84,6 +87,7 @@ const ProductDetails = () => {
                   <button
                     disabled={!product?.in_stock}
                     className="lg:w-[50px] w-[40px] lg:h-[50px] h-[40px] rounded-full border border-[rgba(11,11,11,0.10)] flex items-center justify-center"
+                    onClick={() => setWishlist([...wishlist, product])}
                   >
                     <img
                       src="/wishlist.svg"
