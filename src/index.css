@@ -6,3 +6,12 @@ body {
   font-family: "Sora", serif;
   background-color: #f6f6f6;
 }
+
+.specification ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.specification li {
+  color: rgba(9, 8, 15, 0.6);
+}
