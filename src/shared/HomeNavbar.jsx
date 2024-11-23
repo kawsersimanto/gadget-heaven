@@ -7,6 +7,10 @@ const HomeNavbar = () => {
       path: "/",
     },
     {
+      label: "QNA",
+      path: "/qna",
+    },
+    {
       label: "Dashboard",
       path: "/dashboard",
     },

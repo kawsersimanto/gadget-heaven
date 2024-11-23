@@ -4,6 +4,7 @@ import Home from "../app/home/Home.jsx";
 import Dashboard from "../app/dashboard/Dashboard.jsx";
 import NotFound from "../app/not-found.jsx";
 import ProductDetails from "../app/product/ProductDetails.jsx";
+import Qna from "../app/qna/Faq.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,10 +16,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
-      // {
-      //   path: "/statistics",
-      //   element: <Statistics />,
-      // },
+      {
+        path: "/qna",
+        element: <Qna />,
+      },
       {
         path: "/dashboard",
         element: <Dashboard />,

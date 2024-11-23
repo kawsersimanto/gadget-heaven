@@ -7,6 +7,10 @@ const Navbar = () => {
       path: "/",
     },
     {
+      label: "QNA",
+      path: "/qna",
+    },
+    {
       label: "Dashboard",
       path: "/dashboard",
     },
