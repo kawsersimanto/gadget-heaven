@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import Faq from "../../components/faq/Faq";
 
 const Qna = () => {
@@ -29,6 +30,13 @@ const Qna = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Gadget Heaven | QNA</title>
+        <meta
+          name="description"
+          content="Explore the latest gadgets on Gadget Heaven."
+        />
+      </Helmet>
       <div className="py-20 bg-primary">
         <div className="container">
           <h2 className="text-white text-center mb-4 lg:text-[32px] text-2xl font-bold">
