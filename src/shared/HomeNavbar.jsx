@@ -70,13 +70,13 @@ const HomeNavbar = () => {
             </div>
             <div className="flex items-center sm:gap-4 gap-2">
               <Link
-                to="/dashboard"
+                to="/dashboard?tab=cart"
                 className="w-[40px] h-[40px] rounded-full border border-[rgba(11,11,11,0.10)] flex items-center justify-center bg-white"
               >
                 <img src="/cart.svg" alt="Cart Icon" />
               </Link>
               <Link
-                to="/dashboard"
+                to="/dashboard?tab=wishlist"
                 className="w-[40px] h-[40px] rounded-full border border-[rgba(11,11,11,0.10)] flex items-center justify-center bg-white"
               >
                 <img src="/wishlist.svg" alt="Wishlist Icon" />
