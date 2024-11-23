@@ -95,14 +95,16 @@ const ProductDetails = () => {
                   <div className="mb-3">
                     <span>Rating</span>⭐
                   </div>
-                  <div className="flex items-center">
+                  <div className="flex items-center sm:gap-4 gap-2">
                     <Rating
                       style={{ maxWidth: 130 }}
                       value={product?.rating || 0}
                       readOnly
                       transition="zoom"
                     />
-                    <span className="bg-white">{product?.rating || 0}</span>
+                    <span className="bg-[rgba(9,8,15,0.05)] p-[7px] px-[14px] rounded-[32px]">
+                      {product?.rating || 0}
+                    </span>
                   </div>
                 </div>
                 <div className="flex lg:gap-4 gap-2">
