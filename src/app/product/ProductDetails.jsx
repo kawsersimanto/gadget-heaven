@@ -95,12 +95,15 @@ const ProductDetails = () => {
                   <div className="mb-3">
                     <span>Rating</span>⭐
                   </div>
-                  <Rating
-                    style={{ maxWidth: 130 }}
-                    value={product?.rating || 0}
-                    readOnly
-                    transition="zoom"
-                  />
+                  <div className="flex items-center">
+                    <Rating
+                      style={{ maxWidth: 130 }}
+                      value={product?.rating || 0}
+                      readOnly
+                      transition="zoom"
+                    />
+                    <span className="bg-white">{product?.rating || 0}</span>
+                  </div>
                 </div>
                 <div className="flex lg:gap-4 gap-2">
                   <button
@@ -108,7 +111,11 @@ const ProductDetails = () => {
                     className="btn btn-primary !text-white !h-auto !min-h-[auto] rounded-[32px] xl:py-3 py-1 xl:px-[22px] disabled:bg-primary disabled:opacity-85 disabled:text-white lg:text-inherit text-[12px]"
                     onClick={() => handleAddToCart(product)}
                   >
-                    {isProductInCart ? "Already in Cart" : "Add to Cart"}
+                    {!product?.in_stock
+                      ? "Out of Stock"
+                      : isProductInCart
+                      ? "Already in Cart"
+                      : "Add to Cart"}
                     <CartIcon />
                   </button>
                   <button
