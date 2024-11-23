@@ -2,10 +2,9 @@
 
 **Gadget Heaven** is an e-commerce website designed for gadget enthusiasts. This project showcases a variety of features to enhance the online shopping experience, making it easy for users to browse, filter, and purchase their favorite gadgets.
 
-
-
 ## 🚀 Live Website
-[Visit Gadget Heaven](#) *(Replace `#` with the actual link to your live website)*
+
+[Visit Gadget Heaven](https://gadget-heaven-real.surge.sh/)
 
 ## 💡 React Fundamental Concepts Used
 
@@ -16,13 +15,9 @@
 - **Conditional Rendering**: Displayed UI elements dynamically based on application state.
 - **Routing**: Integrated `react-router-dom` for navigation between pages.
 
-
-
 ## 📊 Data Handling and Management
 
 - **Context API**: Used to manage the global state of the application, including cart, wishlist, and product filtering.
-
-
 
 ## 🌟 Key Features
 
@@ -31,4 +26,3 @@
 3. **Out-of-Stock Product Filtering**: Hide or display out-of-stock products dynamically.
 4. **Product Sorting**: Sort products based on price, popularity, or other criteria.
 5. **Responsive Design**: Optimized for desktop and mobile devices.
-
